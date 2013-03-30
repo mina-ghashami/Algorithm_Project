@@ -1,0 +1,5 @@
+These tests can be run by entering into this directory on a cade machine (specifically this script has been tested on lab1-25) and executing the driver.m script.
+
+Note 1: The DBScan code is commented out in the MNSIT portion of the test (see mnistDriver.m). This is because running dbscan on the cade machines with this dataset takes way too long (I believe we allowed it to run for approximately 15 hours before finally terminating the algorithm). EM clustering is also not performed on this dataset for the same reason.
+
+Note 2: Because of the lack of good (ie. non-buggy and easily available) EM clustering scripts for matlab, we have actually run the original data file, along with files created by PCA with dimmensions 2, 6, and 10 (see the "PCA Files" directory), through a Java EM Clustering framework to generate the resulting class files found in "Data/EMFiles." These resulting class files are then used by the driver scripts to compare their results using ACMI, MI, and RI. In order for these scripts to function properly, the "Data" directory must not be removed, modified, or deleted.

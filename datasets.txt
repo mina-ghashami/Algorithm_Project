@@ -1,0 +1,5 @@
+For this project we used four datasets:
+1)MNIST- http://yann.lecun.com/exdb/mnist/
+2)Gisette- http://archive.ics.uci.edu/ml/datasets/Gisette
+3)Olivetti- http://www.cs.nyu.edu/~roweis/data.html
+4)Madelon- http://archive.ics.uci.edu/ml/datasets/Madelon
